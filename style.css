@@ -1,0 +1,131 @@
+body
+{
+    background: black;
+    /* horizontally center an element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all
+{
+    border: 4px solid grey;
+    border-radius: 8px;
+    width: 350px;
+    height: 580px;
+    transform: translate(0, 12%);   /* vertically center an element */
+}
+
+input
+{
+    width: 310px;
+    height:70px;
+    text-align: right;
+    margin: 20px 20px 5px 20px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 3px solid rgb(192, 176, 1);
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+button
+{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: 22px;
+    margin: 8px 8px 8px 8px;
+    cursor:pointer;
+    box-shadow: 4px 4px 8px rgb(193, 175, 175);
+}
+button:hover
+{
+    background-color: rgb(184, 180, 180);
+}
+.but
+{
+    transform: translate(15px, 30px); 
+}
+::placeholder
+{
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+.operator
+{
+    background-color:rgb(255, 191, 0);
+    /* pointer-events: none; */
+}
+#calc
+{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    transform: translate(0px, 10px);
+}
+.light
+{
+    background-color: rgb(182, 147, 158);
+}
+.dark
+{
+    background-color: black;
+}
+
+.historyshow
+{
+    border: 2px solid grey;
+    border-radius: 4px;
+    width: 350px;
+    height: 380px;
+    transform: translate(0, 12%);   /* vertically center an element */
+    /* display: block; */
+ } 
+.historyhide
+{
+    display: none;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin: 20px 20px 5px 23px;
+    width: 300px;
+    height: 380px;
+    overflow-y: scroll;
+}
+.historyhide::-webkit-scrollbar
+{
+    width: 0;
+}
+span
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+}
+p
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    padding-left: 80px;
+}
+#extra_functions
+{
+    display: flex;
+    flex-direction: column;
+}
+.spl_btn
+{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#extra_functions
+{
+    width: 60px;
+    height: 420px;
+}
